@@ -5,7 +5,6 @@ class Battle
   def initialize(fighter1, fighter2)
     @fighter1 = fighter1
     @fighter2 = fighter2
-    
   end
   def fight
     @fighter1.attack(@fighter2)
