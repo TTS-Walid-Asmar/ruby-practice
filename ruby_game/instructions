@@ -1,0 +1,8 @@
+Create 4 classes
+User
+Admins
+Shoppers
+Inventory
+
+All Users can buy inventory, but admins get a 10% discount
+Track how much inventory you have left after they buy something
