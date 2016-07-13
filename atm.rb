@@ -46,8 +46,8 @@ class Account
   def deposit
     puts "How much would you like to deposit?"
     deposit = gets.chomp.to_i
-    puts "You have deposited $ #{deposit}.  You now have $ #{@balance += deposit} in your account"
-    pin_correct
+    puts "You have deposited $#{deposit}.  You now have $#{@balance += deposit} in your account"
+    pin_check
   end
   def begin
     greeting

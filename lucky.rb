@@ -1,6 +1,6 @@
 class Randomizer
   def random
-     students = %w(Julie Josh Emily Peter Baker Cherron Eric)
+     students = %w(Julie Emily Peter Baker Eric)
     x = students.sample
   end
 end
